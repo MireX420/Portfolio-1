@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
+    <title>Project Portfolio</title>
+</head>
+<body>
+    <main>
+        <section class="project-list">
+            <h2>All Projects</h2>
+            <ul id="project-list">
+            </ul>
+        </section>
+        <section class="project-form">
+            <h2>Create New Project</h2>
+            <form id="new-project-form">
+                <label for="project-name">Project Name:</label>
+                <input type="text" id="project-name" name="project-name" required>               
+                <label for="project-description">Description:</label>
+                <textarea id="project-description" name="project-description" required></textarea>
+               <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Create Project</button>
+            </form>
+        </section>
+      </main>
+    <script src="src/main.ts"></script>
+</body>
+</html>

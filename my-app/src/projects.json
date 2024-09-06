@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Car Tinder",
+      "description": "TInder for car enthusiasts.",
+      "date": "2024-09-01"
+    },
+    {
+      "id": 2,
+      "name": "Fitness Tracker",
+      "description": "Tracker for workouts and planner.",
+      "date": "2024-10-01"
+    },
+    {
+      "id": 3,
+      "name": "2d game",
+      "description": "game in 2d.",
+      "date": "2024-11-01"
+    }
+  ]
+}

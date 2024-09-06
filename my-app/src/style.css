@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-list, .project-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 45%;
+}
+
+.project-form{
+display: flex;
+flex-direction: column;
+}
+
+#project-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#new-project-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#project-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+ 
+form input, form textarea {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
