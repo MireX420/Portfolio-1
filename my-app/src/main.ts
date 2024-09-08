@@ -6,7 +6,7 @@ interface Project {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('src/projects.json')
+  fetch('src/static/projects.json')
     .then(response => response.json())
     .then((data: { projects: Project[] }) => {
       const projectList = document.getElementById('project-list') as HTMLUListElement;
