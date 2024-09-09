@@ -18,6 +18,18 @@ const projects = [
       description: "Tinder for car enthusiasts.",
       date: '2024-09-01',
   },
+  {
+    "id": 2,
+    "name": "Fitness Tracker",
+    "description": "Tracker for workouts and planner.",
+    "date": "2024-10-01"
+  },
+  {
+    "id": 3,
+    "name": "2d game",
+    "description": "game in 2d.",
+    "date": "2024-11-01"
+  }
 ]
 
 app.get("/json", async (c) => {
